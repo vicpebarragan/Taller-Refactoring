@@ -9,7 +9,9 @@ public class Ayudante extends Estudiante{
     	paralelosAyudantia = paralelos;
     }
 
-    //Los paralelos se añaden/eliminan directamente del Arraylist de paralelos
+    public void anadirParalelos(Paralelo p){
+        paralelosAyudantia.add(p);
+    } 
 
     public void MostrarParalelos(){
         for(Paralelo par:paralelosAyudantia){
